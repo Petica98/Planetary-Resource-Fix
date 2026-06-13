@@ -257,7 +257,7 @@ LUNA:
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_water
-    state: Solid
+    state: Underground
     amount: 44000
     miningFactor: 0.01
     explorationLevel: 0
