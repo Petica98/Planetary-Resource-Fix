@@ -8,7 +8,7 @@ MERCURY:
     miningFactor: 0.5
     explorationLevel: 0
     preliminaryExplored: true
-  # - resourceId: id_resource_volatiles <- TODO :: split volatiles base from carbon resource as these are sulphites
+  # - resourceId: id_resource_volatile <- TODO :: split volatiles base from carbon resource as these are sulphites
   #   state: Solid
   #   amount: 41300000
   #   miningFactor: 0.3
@@ -36,7 +36,7 @@ MERCURY:
     miningFactor: 0.02 
     explorationLevel: 0
     preliminaryExplored: false
-  - resourceId: id_resource_volatiles # id_resource_carbon
+  - resourceId: id_resource_volatile # id_resource_carbon
     state: Solid
     amount: 138000
     miningFactor: 0.01 
@@ -47,7 +47,7 @@ MERCURY:
     state: Underground
     amount: 273000000000
     miningFactor: 0.5
-  # - resourceId: id_resource_volatiles
+  # - resourceId: id_resource_volatile
   #   state: Underground
   #   amount: 81900000
   #   miningFactor: 0.15
@@ -71,7 +71,7 @@ MERCURY:
     miningFactor: 0.01
     explorationLevel: 0
     preliminaryExplored: false
-  - resourceId: id_resource_volatiles # id_resource_carbon
+  - resourceId: id_resource_volatile # id_resource_carbon
     state: Underground
     amount: 546000000
     miningFactor: 0.005
@@ -112,7 +112,7 @@ VENUS: #should be vulcanic like mars and io
     miningFactor: 0.035
     explorationLevel: 0
     preliminaryExplored: true
-  # - resourceId: id_resource_volatiles
+  # - resourceId: id_resource_volatile
   #   state: Gas
   #   amount: 125715
   #   miningFactor: 0.015
@@ -137,12 +137,12 @@ VENUS: #should be vulcanic like mars and io
     miningFactor: 0.6
     explorationLevel: 0
     preliminaryExplored: true
-  # - resourceId: id_resource_volatiles
+  # - resourceId: id_resource_volatile
   #   state: Solid
   #   amount: 55200000
   #   miningFactor: 0.2
-    # explorationLevel: 0
-    # preliminaryExplored: true
+  #   explorationLevel: 0
+  #   preliminaryExplored: true
   - resourceId: id_resource_silicon
     state: Solid
     amount: 41300000
@@ -215,123 +215,123 @@ VENUS: #should be vulcanic like mars and io
 
 LUNA:
   overwrite: true
-  resources:
+  deposits:
   # atmosphere
   # n.a.
   # regolith (solid)
   - resourceId: id_resource_silicon
-    state: solid
+    state: Solid
     amount: 520000000
     miningFactor: 0.04
     explorationLevel: 0
-    preliminaryExplored: true
+    preliminaryExplored: false
   - resourceId: id_resource_metal
-    state: solid
-    amount: 442000000
-    miningFactor: 0.04
-    explorationLevel: 0
-    preliminaryExplored: true
-  - resourceId: id_resource_metal
-    state: solid
+    state: Solid
     amount: 442000000
     miningFactor: 0.04
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_metal
-    state: solid
+    state: Solid
+    amount: 442000000
+    miningFactor: 0.04
+    explorationLevel: 0
+    preliminaryExplored: false
+  - resourceId: id_resource_metal
+    state: Solid
     amount: 832000000
     miningFactor: 0.02
     explorationLevel: 0
     preliminaryExplored: false
   # regolith (trapped gas), for now underground as otherwise it'd be atmo
   - resourceId: id_resource_oxygen
-    state: undergound
+    state: Undergound
     amount: 260000000
     miningFactor: 0.02
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_hel3
-    state: undergound
+    state: Undergound
     amount: 97500000
     miningFactor: 0.01
     explorationLevel: 0
-    preliminaryExplored: true
+    preliminaryExplored: false
   - resourceId: id_resource_water
-    state: solid
+    state: Solid
     amount: 44000
     miningFactor: 0.01
     explorationLevel: 0
     preliminaryExplored: false
   # surface
   - resourceId: id_resource_metal
-    state: solid
+    state: Solid
     amount: 585000000
     miningFactor: 0.4
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_silicon
-    state: solid
+    state: Solid
     amount: 442000000
     miningFactor: 0.3
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_uran
-    state: solid
+    state: Solid
     amount: 1430000
     miningFactor: 0.05
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_water
-    state: solid
+    state: Solid
     amount: 13000000
     miningFactor: 0.3
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_raremetal
-    state: solid
+    state: Solid
     amount: 85850000
     miningFactor: 0.01
     explorationLevel: 0
     preliminaryExplored: false
   # underground (3km)
   - resourceId: id_resource_metal
-    state: underground
+    state: Undergound
     amount: 104000000000
     miningFactor: 0.1
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_silicon
-    state: underground
+    state: Undergound
     amount: 104000000000
     miningFactor: 0.1
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_metal
-    state: underground
+    state: Undergound
     amount: 130000000000
     miningFactor: 0.3
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_raremetal
-    state: underground
+    state: Undergound
     amount: 7800000000
     miningFactor: 0.03
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_uran
-    state: underground
+    state: Undergound
     amount: 26000000000
     miningFactor: 0.03
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_raremetal
-    state: underground
+    state: Undergound
     amount: 26000000000
     miningFactor: 0.01
     explorationLevel: 0
     preliminaryExplored: false
   - resourceId: id_resource_water
-    state: underground
+    state: Undergound
     amount: 13000000
     miningFactor: 0.3
     explorationLevel: 0
