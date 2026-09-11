@@ -510,43 +510,43 @@ DEIMOS:
   deposits:
   - resourceId: id_resource_water
     state: Underground
-    amount: 850000000
+    amount: 117500000
     miningFactor: 0.15
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_water
     state: Underground
-    amount: 15000000000
+    amount: 2350000000
     miningFactor: 0.25
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_volatile
     state: Underground
-    amount: 2400000000
+    amount: 187500000
     miningFactor: 0.08
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_oxygen
     state: Underground
-    amount: 8000000000
+    amount: 650000000
     miningFactor: 0.35
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_nitrogen
     state: Underground
-    amount: 1200000000
+    amount: 187500000
     miningFactor: 0.15
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_metal
     state: Underground
-    amount: 3200000000
+    amount: 375000000
     miningFactor: 0.5
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_silicon
     state: Underground
-    amount: 2800000000
+    amount: 375000000
     miningFactor: 0.35
     explorationLevel: 0
     preliminaryExplored: true
