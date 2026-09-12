@@ -511,42 +511,60 @@ DEIMOS:
   - resourceId: id_resource_water
     state: Underground
     amount: 117500000
-    miningFactor: 0.15
+    miningFactor: 0.8
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_water
     state: Underground
     amount: 2350000000
-    miningFactor: 0.25
+    miningFactor: 0.45
+    explorationLevel: 0
+    preliminaryExplored: false
+  - resourceId: id_resource_volatile
+    state: Underground
+    amount: 1875000
+    miningFactor: 0.6
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_volatile
     state: Underground
-    amount: 187500000
-    miningFactor: 0.08
+    amount: 187300000
+    miningFactor: 0.4
     explorationLevel: 0
-    preliminaryExplored: true
+    preliminaryExplored: false
   - resourceId: id_resource_oxygen
     state: Underground
     amount: 650000000
-    miningFactor: 0.35
+    miningFactor: 0.45
     explorationLevel: 0
-    preliminaryExplored: true
+    preliminaryExplored: false
   - resourceId: id_resource_nitrogen
     state: Underground
     amount: 187500000
-    miningFactor: 0.15
+    miningFactor: 0.6
+    explorationLevel: 0
+    preliminaryExplored: false
+  - resourceId: id_resource_metal
+    state: Underground
+    amount: 3750000
+    miningFactor: 0.5
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_metal
     state: Underground
-    amount: 375000000
-    miningFactor: 0.5
+    amount: 324000000
+    miningFactor: 0.2
+    explorationLevel: 0
+    preliminaryExplored: false
+  - resourceId: id_resource_silicon
+    state: Underground
+    amount: 320000000
+    miningFactor: 0.35
     explorationLevel: 0
     preliminaryExplored: true
   - resourceId: id_resource_silicon
     state: Underground
-    amount: 375000000
-    miningFactor: 0.35
+    amount: 3750000
+    miningFactor: 0.1
     explorationLevel: 0
-    preliminaryExplored: true
+    preliminaryExplored: false
